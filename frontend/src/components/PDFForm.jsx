@@ -16,7 +16,7 @@ const PDFForm = () => {
 
         try {
             console.log("Sending request to backend...");
-            const response = await axios.post("http://localhost:5000/api/pdf/modify", {
+            const response = await axios.post("https://pdf-modifier.onrender.com/api/pdf/modify", {
                 text1,
                 text2,
                 text3
